@@ -1,0 +1,201 @@
+{
+  "version": 1,
+  "ohos-module-entry": {
+    "SELECT_TARGET": "default",
+    "MODULE_BUILD_DIR": "E:\\application\\DevEcoStudioProjects\\MyApplication\\entry\\build",
+    "TARGETS": {
+      "default": {
+        "SOURCE_ROOT": "E:\\application\\DevEcoStudioProjects\\MyApplication\\entry\\src\\main",
+        "RESOURCES_PATH": [
+          "E:\\application\\DevEcoStudioProjects\\MyApplication\\entry\\src\\main\\resources"
+        ],
+        "BUILD_PATH": {
+          "OUTPUT_PATH": "E:\\application\\DevEcoStudioProjects\\MyApplication\\entry\\build\\default\\outputs\\default",
+          "INTERMEDIA_PATH": "E:\\application\\DevEcoStudioProjects\\MyApplication\\entry\\build\\default\\intermediates",
+          "JS_ASSETS_PATH": "E:\\application\\DevEcoStudioProjects\\MyApplication\\entry\\build\\default\\intermediates\\loader_out\\default",
+          "JS_LITE_ASSETS_PATH": "E:\\application\\DevEcoStudioProjects\\MyApplication\\entry\\build\\default\\intermediates\\loader_out_lite\\default",
+          "RES_PATH": "E:\\application\\DevEcoStudioProjects\\MyApplication\\entry\\build\\default\\intermediates\\res\\default",
+          "RES_PROFILE_PATH": "E:\\application\\DevEcoStudioProjects\\MyApplication\\entry\\build\\default\\intermediates\\res\\default\\resources\\base\\profile",
+          "ETS_SUPER_VISUAL_PATH": "E:\\application\\DevEcoStudioProjects\\MyApplication\\entry\\build\\default\\cache\\default\\default@CompileArkTS\\esmodule",
+          "JS_SUPER_VISUAL_PATH": "E:\\application\\DevEcoStudioProjects\\MyApplication\\entry\\build\\default\\cache\\default\\default@CompileJS\\jsbundle",
+          "WORKER_LOADER": "E:\\application\\DevEcoStudioProjects\\MyApplication\\entry\\build\\default\\intermediates\\loader\\default\\loader.json",
+          "MANIFEST_JSON": "E:\\application\\DevEcoStudioProjects\\MyApplication\\entry\\build\\default\\intermediates\\manifest\\default",
+          "OUTPUT_METADATA_JSON": "E:\\application\\DevEcoStudioProjects\\MyApplication\\entry\\build\\default\\intermediates\\hap_metadata\\default\\output_metadata.json",
+          "SOURCE_MAP_DIR": "E:\\application\\DevEcoStudioProjects\\MyApplication\\entry\\build\\default\\intermediates\\source_map\\default"
+        },
+        "BUILD_OPTION": {
+          "debuggable": true
+        }
+      },
+      "ohosTest": {
+        "SOURCE_ROOT": "E:\\application\\DevEcoStudioProjects\\MyApplication\\entry\\src\\ohosTest",
+        "RESOURCES_PATH": [
+          "E:\\application\\DevEcoStudioProjects\\MyApplication\\entry\\src\\ohosTest\\resources"
+        ],
+        "BUILD_PATH": {
+          "OUTPUT_PATH": "E:\\application\\DevEcoStudioProjects\\MyApplication\\entry\\build\\default\\outputs\\ohosTest",
+          "INTERMEDIA_PATH": "E:\\application\\DevEcoStudioProjects\\MyApplication\\entry\\build\\default\\intermediates",
+          "JS_ASSETS_PATH": "E:\\application\\DevEcoStudioProjects\\MyApplication\\entry\\build\\default\\intermediates\\loader_out\\ohosTest",
+          "JS_LITE_ASSETS_PATH": "E:\\application\\DevEcoStudioProjects\\MyApplication\\entry\\build\\default\\intermediates\\loader_out_lite\\ohosTest",
+          "RES_PATH": "E:\\application\\DevEcoStudioProjects\\MyApplication\\entry\\build\\default\\intermediates\\res\\ohosTest",
+          "RES_PROFILE_PATH": "E:\\application\\DevEcoStudioProjects\\MyApplication\\entry\\build\\default\\intermediates\\res\\ohosTest\\resources\\base\\profile",
+          "ETS_SUPER_VISUAL_PATH": "E:\\application\\DevEcoStudioProjects\\MyApplication\\entry\\build\\default\\cache\\ohosTest\\ohosTest@OhosTestCompileArkTS\\esmodule",
+          "JS_SUPER_VISUAL_PATH": "E:\\application\\DevEcoStudioProjects\\MyApplication\\entry\\build\\default\\cache\\ohosTest\\ohosTest@OhosTestCompileJS\\jsbundle",
+          "WORKER_LOADER": "E:\\application\\DevEcoStudioProjects\\MyApplication\\entry\\build\\default\\intermediates\\loader\\ohosTest\\loader.json",
+          "MANIFEST_JSON": "E:\\application\\DevEcoStudioProjects\\MyApplication\\entry\\build\\default\\intermediates\\manifest\\ohosTest",
+          "OUTPUT_METADATA_JSON": "E:\\application\\DevEcoStudioProjects\\MyApplication\\entry\\build\\default\\intermediates\\hap_metadata\\ohosTest\\output_metadata.json",
+          "SOURCE_MAP_DIR": "E:\\application\\DevEcoStudioProjects\\MyApplication\\entry\\build\\default\\intermediates\\source_map\\ohosTest"
+        },
+        "BUILD_OPTION": {
+          "debuggable": true
+        }
+      }
+    },
+    "BUILD_OPTION": {
+      "default-default": {
+        "debuggable": true,
+        "copyFrom": "default",
+        "strictMode": {
+          "caseSensitiveCheck": true,
+          "useNormalizedOHMUrl": true
+        },
+        "resOptions": {
+          "copyCodeResource": {
+            "enable": false
+          }
+        },
+        "name": "debug"
+      }
+    },
+    "BUILD_PROFILE_OPT": {
+      "apiType": "stageMode",
+      "buildOption": {
+        "resOptions": {
+          "copyCodeResource": {
+            "enable": false
+          }
+        }
+      },
+      "buildOptionSet": [
+        {
+          "name": "release",
+          "arkOptions": {
+            "obfuscation": {
+              "ruleOptions": {
+                "enable": false,
+                "files": [
+                  "./obfuscation-rules.txt"
+                ]
+              }
+            }
+          }
+        },
+        {
+          "name": "default"
+        },
+        {
+          "name": "debug"
+        }
+      ],
+      "targets": [
+        {
+          "name": "default"
+        },
+        {
+          "name": "ohosTest"
+        }
+      ]
+    },
+    "BUILD_CACHE_DIR": ""
+  },
+  "ohos-project": {
+    "SELECT_PRODUCT_NAME": "default",
+    "MODULE_BUILD_DIR": "E:\\application\\DevEcoStudioProjects\\MyApplication\\build",
+    "BUNDLE_NAME": "com.smartalarm.app",
+    "VERSION_CODE": 1000000,
+    "VERSION_NAME": "1.0.0",
+    "BUILD_PATH": {
+      "OUTPUT_PATH": "E:\\application\\DevEcoStudioProjects\\MyApplication\\build\\outputs\\default"
+    },
+    "MODULES": [
+      {
+        "name": "entry",
+        "srcPath": "E:\\application\\DevEcoStudioProjects\\MyApplication\\entry",
+        "targets": [
+          {
+            "name": "default",
+            "applyToProducts": [
+              "default"
+            ]
+          }
+        ],
+        "belongProjectPath": "E:\\application\\DevEcoStudioProjects\\MyApplication"
+      }
+    ],
+    "PROFILE_OPT": {
+      "app": {
+        "signingConfigs": [
+          {
+            "name": "default",
+            "type": "HarmonyOS",
+            "material": {
+              "storeFile": "E:/devecostudio-windows-6.1.0.830/smartalarm.p12",
+              "storePassword": "000000194C221A91DF483881BA2682386B1F258BC5EA4EACDF92C59A3FF265C3FE01CD47B13178FD6E",
+              "keyAlias": "smartalarm_key",
+              "keyPassword": "00000019850276DA80AE78623F02AD546C27CC15812379856886DF847C8FE606ACC35CDFE1A15B11A7",
+              "signAlg": "SHA256withECDSA",
+              "profile": "E:/devecostudio-windows-6.1.0.830/SmartAlarm_ReleaseRelease.p7b",
+              "certpath": "E:/devecostudio-windows-6.1.0.830/SmartAlarm.cer"
+            }
+          }
+        ],
+        "products": [
+          {
+            "name": "default",
+            "signingConfig": "default",
+            "targetSdkVersion": "6.0.2(22)",
+            "compatibleSdkVersion": "6.0.2(22)",
+            "runtimeOS": "HarmonyOS",
+            "buildOption": {
+              "strictMode": {
+                "caseSensitiveCheck": true,
+                "useNormalizedOHMUrl": true
+              }
+            }
+          }
+        ],
+        "buildModeSet": [
+          {
+            "name": "debug"
+          },
+          {
+            "name": "release"
+          }
+        ]
+      },
+      "modules": [
+        {
+          "name": "entry",
+          "srcPath": "./entry",
+          "targets": [
+            {
+              "name": "default",
+              "applyToProducts": [
+                "default"
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    "CONFIG_PROPERTIES": {
+      "enableSignTask": true,
+      "skipNativeIncremental": false,
+      "hvigor.keepDependency": true
+    },
+    "OVERALL_PROJECT_PATHS": [
+      "E:\\application\\DevEcoStudioProjects\\MyApplication"
+    ],
+    "BUILD_CACHE_DIR": ""
+  }
+}

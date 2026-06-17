@@ -1,0 +1,47 @@
+{
+  "string": [
+    {
+      "name": "module_desc",
+      "value": "模块描述"
+    },
+    {
+      "name": "EntryAbility_desc",
+      "value": "应用入口"
+    },
+    {
+      "name": "EntryAbility_label",
+      "value": "密码生成器"
+    },
+    {
+      "name": "read_media_reason",
+      "value": "需要读取CSV文件以导入密码数据"
+    },
+    {
+      "name": "file_access_reason",
+      "value": "需要访问文件以选择CSV文件"
+    },{
+      "name": "app_name",
+      "value": "密码管家"
+    },
+    {
+      "name": "generate_password",
+      "value": "生成密码"
+    },
+    {
+      "name": "copy_password",
+      "value": "复制"
+    },
+    {
+      "name": "save_password",
+      "value": "保存密码"
+    },
+    {
+      "name": "import_csv",
+      "value": "导入CSV"
+    },
+    {
+      "name": "password_list",
+      "value": "密码列表"
+    }
+  ]
+}

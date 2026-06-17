@@ -1,0 +1,7 @@
+{
+  "src": [
+    "pages/ImportPage",
+    "pages/PasswordGenerator",
+    "pages/PasswordListPage"
+  ]
+}

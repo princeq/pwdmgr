@@ -1,0 +1,56 @@
+{
+  "app": {
+    "signingConfigs": [
+      {
+        "name": "default",
+        "type": "HarmonyOS",
+        "material": {
+          "storeFile": "E:/devecostudio-windows-6.1.0.830/smartalarm.p12",
+          "storePassword": "000000194C221A91DF483881BA2682386B1F258BC5EA4EACDF92C59A3FF265C3FE01CD47B13178FD6E",
+          "keyAlias": "smartalarm_key",
+          "keyPassword": "00000019850276DA80AE78623F02AD546C27CC15812379856886DF847C8FE606ACC35CDFE1A15B11A7",
+          "signAlg": "SHA256withECDSA",
+          "profile": "E:/devecostudio-windows-6.1.0.830/SmartAlarm_ReleaseRelease.p7b",
+          "certpath": "E:/devecostudio-windows-6.1.0.830/SmartAlarm.cer"
+        }
+      }
+    ],
+    "products": [
+      {
+        "name": "default",
+        "signingConfig": "default",
+        "targetSdkVersion": "6.0.2(22)",
+        "compatibleSdkVersion": "6.0.2(22)",
+        "runtimeOS": "HarmonyOS",
+        "buildOption": {
+          "strictMode": {
+            "caseSensitiveCheck": true,
+            "useNormalizedOHMUrl": true
+          }
+        }
+      }
+    ],
+    "buildModeSet": [
+      {
+        "name": "debug",
+      },
+      {
+        "name": "release"
+      }
+    ]
+  },
+  "modules": [
+    {
+      "name": "entry",
+      "srcPath": "./entry",
+      "targets": [
+        {
+          "name": "default",
+          "applyToProducts": [
+            "default"
+          ]
+        }
+      ]
+    }
+  ]
+}
