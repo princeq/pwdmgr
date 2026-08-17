@@ -5,13 +5,13 @@
         "name": "default",
         "type": "HarmonyOS",
         "material": {
-          "storeFile": "E:/devecostudio-windows-6.1.0.830/smartalarm.p12",
-          "storePassword": "000000194C221A91DF483881BA2682386B1F258BC5EA4EACDF92C59A3FF265C3FE01CD47B13178FD6E",
-          "keyAlias": "smartalarm_key",
-          "keyPassword": "00000019850276DA80AE78623F02AD546C27CC15812379856886DF847C8FE606ACC35CDFE1A15B11A7",
+          "storeFile": "E:\\devecostudio-windows-6.1.0.830\\MyHarmonyOSKeyStore.p12",
+          "storePassword": "0000001971386DB85C2A20377F6818182F6E5C4EA9C1369120081E322E53CAFC8F94CD2D426A67D26F",
+          "keyAlias": "personal_key",
+          "keyPassword": "00000019CDF1059735300F62BB80390413BF5CF9A3F9E356F4169ABFC7DD7F9774C1EF42166B031CCC",
           "signAlg": "SHA256withECDSA",
-          "profile": "E:/devecostudio-windows-6.1.0.830/SmartAlarm_ReleaseRelease.p7b",
-          "certpath": "E:/devecostudio-windows-6.1.0.830/SmartAlarm.cer"
+          "profile": "E:\\devecostudio-windows-6.1.0.830\\PasswordManagerDebug.p7b",
+          "certpath": "E:\\devecostudio-windows-6.1.0.830\\Personal.cer"
         }
       }
     ],
